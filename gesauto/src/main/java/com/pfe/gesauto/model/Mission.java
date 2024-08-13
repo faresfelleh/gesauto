@@ -1,16 +1,27 @@
 package com.pfe.gesauto.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.Date;
 
 @Data
+@Entity
+@NoArgsConstructor
+@AllArgsConstructor
 public class Mission {
-        private int id;
-        private String missionName;
-        private String missionDescription;
-        private String missionLocation;
-        private String missionType;
-        private String missionDate;
-        private String missionTime;
+        @Id
+        @GeneratedValue(strategy = GenerationType.IDENTITY)
+        private int idMisssion;
+        private String adresseDepartMission;
+        private String adresseArriveMission;
+        private Date dateDepartMission;
+        private Date dateArriveMission;
         private String missionStatus;
 
 }

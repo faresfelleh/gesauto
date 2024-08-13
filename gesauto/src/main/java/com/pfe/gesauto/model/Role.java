@@ -12,13 +12,9 @@ import lombok.NoArgsConstructor;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-public class Client {
+public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int idClient;
-    private String nomClient;
-    private String matriculefiscaleClient;
-    private String telephoneClient;
-    private String addresseClient;
-
+    private int idRole;
+    private String nomRole;
 }

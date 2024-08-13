@@ -1,18 +1,23 @@
 package com.pfe.gesauto.model;
 
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@Entity
+@NoArgsConstructor
+@AllArgsConstructor
+
 public class Assurance {
-    private int id;
-    private String assurance;
-    private String assuranceType;
-    private String assuranceDate;
-    private String assuranceStatus;
-    private String assuranceDescription;
-    private String assuranceLocation;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int idAssurance;
+    private String numAssurance;
+    private String nomAgenceAssurance;
+    private String dateDebutAssurance;
+    private String dateFinAssurance;
 
 
-    public Assurance() {
-    }
 }

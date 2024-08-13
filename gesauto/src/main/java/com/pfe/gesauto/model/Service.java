@@ -12,13 +12,11 @@ import lombok.NoArgsConstructor;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-public class Client {
+public class Service {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int idClient;
-    private String nomClient;
-    private String matriculefiscaleClient;
-    private String telephoneClient;
-    private String addresseClient;
-
+    private int idServvice;
+    private String descriptionService;
+    private String Service;
+    private String CoutService;
 }
