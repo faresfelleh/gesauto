@@ -1,0 +1,69 @@
+POST http://localhost:8082/Api/User
+Content-Type: application/json
+Content-Length: 203
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=43F3D5FD3B9F74BCDA12581BFBB50219
+
+{
+  "idUser": 0,
+  "nom": "",
+  "prenom": "",
+  "email": "",
+  "adresse": "",
+  "telephone": "",
+  "password": "",
+  "permis": "",
+  "dateNaissance": "",
+  "sexe": "",
+  "civilSatut": "",
+  "login": ""
+}
+
+###
+
+POST http://localhost:8082/api/assurance
+Content-Type: application/json
+Content-Length: 146
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=43F3D5FD3B9F74BCDA12581BFBB50219
+
+{
+  "idAssurance": 2,
+  "numAssurance": "122",
+  "nomAgenceAssurance": "jdfds",
+  "dateDebutAssurance": "dfdsf",
+  "dateFinAssurance": "dfsdfsd"
+}
+
+###
+
+POST http://localhost:8082/api/assurance
+Content-Type: application/json
+Content-Length: 146
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=43F3D5FD3B9F74BCDA12581BFBB50219
+
+{
+  "idAssurance": 0,
+  "numAssurance": "122",
+  "nomAgenceAssurance": "jdfds",
+  "dateDebutAssurance": "dfdsf",
+  "dateFinAssurance": "dfsdfsd"
+}
+
+###
+
+POST http://localhost:8082/api/assurance
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
