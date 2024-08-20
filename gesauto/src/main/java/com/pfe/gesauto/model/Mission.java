@@ -1,9 +1,6 @@
 package com.pfe.gesauto.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -14,6 +11,7 @@ import java.util.Date;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
+@Table(name = "MISSION")
 public class Mission {
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,5 +21,8 @@ public class Mission {
         private Date dateDepartMission;
         private Date dateArriveMission;
         private String missionStatus;
+        @ManyToOne
+        @JoinColumn(name="idClient",nullable = false)
+        private Client client;
 
 }

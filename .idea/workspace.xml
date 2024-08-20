@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c7c093f-5464-4906-a6e6-faee4a914da8" name="Changes" comment="package service">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="3c7c093f-5464-4906-a6e6-faee4a914da8" name="Changes" comment="package conroller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/model/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/model/Services.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/repository/ServiceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/repository/ServiceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/service/AssuranceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/service/AssuranceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/service/ClienService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/service/ClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/service/MissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/service/MissionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/service/ProduitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/service/ProduitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/service/RoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/service/ServiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/service/ServiceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/service/SinistreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/service/SinistreService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/controller/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/model/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/model/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/repository/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/service/RoleService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/service/Vehicule.java" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/service/VehiculeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesauto/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -59,28 +55,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.generated-requests | #1.executor": "Run",
-    "HTTP Request.generated-requests | #2.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.GesautoApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/LENOVO/OneDrive/PROJECT PFE/Gestauto/gesauto",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #2.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.GesautoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LENOVO/OneDrive/PROJECT PFE/Gestauto/gesauto&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="openRunningConfigInTab" value="true" />
   </component>
@@ -124,7 +120,13 @@
       <updated>1723270606230</updated>
       <workItem from="1723270607397" duration="9236000" />
       <workItem from="1723535521916" duration="5461000" />
-      <workItem from="1723542331691" duration="11570000" />
+      <workItem from="1723542331691" duration="11968000" />
+      <workItem from="1723887001266" duration="478000" />
+      <workItem from="1723916377937" duration="1600000" />
+      <workItem from="1723918272189" duration="679000" />
+      <workItem from="1723974022414" duration="1527000" />
+      <workItem from="1723977433301" duration="1775000" />
+      <workItem from="1724089285027" duration="1496000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -158,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723537435687</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="package conroller">
+      <option name="closed" value="true" />
+      <created>1723568466394</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723568466395</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +189,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="creation package repository" />
     <MESSAGE value="package service" />
-    <option name="LAST_COMMIT_MESSAGE" value="package service" />
+    <MESSAGE value="package conroller" />
+    <option name="LAST_COMMIT_MESSAGE" value="package conroller" />
   </component>
 </project>
