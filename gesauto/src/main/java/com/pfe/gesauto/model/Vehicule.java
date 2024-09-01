@@ -1,13 +1,12 @@
 package com.pfe.gesauto.model;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import java.util.Set;
 
 @Data
 @Entity
@@ -16,7 +15,7 @@ import lombok.NoArgsConstructor;
 public class Vehicule {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private int idvehicule;
     private String matriculeVehicule;
     private String modeleVehicule;
     private String marqueVehicule;
@@ -27,6 +26,15 @@ public class Vehicule {
     private String finaceVehicule;
     private String numcartegrise;
     private double kilometrerouler;
+
+    @OneToMany(mappedBy = "vehicule")
+    private Set<Mission> missions;
+
+    @OneToMany(mappedBy = "vehicule")
+    private Set<Services> services;
+
+    @OneToMany(mappedBy = "vehicule")
+    private Set<Sinistre> sinistres;
 
 
 }

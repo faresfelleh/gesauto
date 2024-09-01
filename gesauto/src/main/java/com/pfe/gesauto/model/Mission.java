@@ -24,5 +24,11 @@ public class Mission {
         @ManyToOne
         @JoinColumn(name="idClient",nullable = false)
         private Client client;
+        @ManyToOne
+        @JoinColumn(name="idProduit",nullable = false)
+        private Produit produit;
+        @ManyToOne
+        @JoinColumn(name = "idvehicule",nullable = false)
+        private Vehicule vehicule;
 
 }

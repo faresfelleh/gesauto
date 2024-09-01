@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c7c093f-5464-4906-a6e6-faee4a914da8" name="Changes" comment="package conroller">
+    <list default="true" id="3c7c093f-5464-4906-a6e6-faee4a914da8" name="Changes" comment="relation tables">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/controller/RoleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/model/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/model/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/repository/RoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/service/RoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/model/Mission.java" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/model/Mission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/model/Produit.java" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/model/Produit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/model/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/model/Services.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/model/Vehicule.java" beforeDir="false" afterPath="$PROJECT_DIR$/gesauto/src/main/java/com/pfe/gesauto/model/Vehicule.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +122,7 @@
       <workItem from="1723918272189" duration="679000" />
       <workItem from="1723974022414" duration="1527000" />
       <workItem from="1723977433301" duration="1775000" />
-      <workItem from="1724089285027" duration="1496000" />
+      <workItem from="1724089285027" duration="3158000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -168,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723568466395</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="relation tables">
+      <option name="closed" value="true" />
+      <created>1724152147899</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724152147900</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +194,7 @@
     <MESSAGE value="creation package repository" />
     <MESSAGE value="package service" />
     <MESSAGE value="package conroller" />
-    <option name="LAST_COMMIT_MESSAGE" value="package conroller" />
+    <MESSAGE value="relation tables" />
+    <option name="LAST_COMMIT_MESSAGE" value="relation tables" />
   </component>
 </project>

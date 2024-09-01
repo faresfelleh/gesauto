@@ -1,9 +1,6 @@
 package com.pfe.gesauto.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,6 +9,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
+@Table(name = "SERVICES")
 public class Services {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -19,4 +17,7 @@ public class Services {
     private String descriptionService;
     private String Service;
     private String CoutService;
+    @ManyToOne
+    @JoinColumn(name = "idvehicule",nullable = false)
+    private Vehicule vehicule;
 }
